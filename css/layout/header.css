@@ -1,0 +1,295 @@
+.mobile-bar, .mobile-icon, .offcanvas-header{
+    display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .container{
+
+        align-content: center;
+
+
+    }
+
+    .row{
+
+        display:flex;
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10%;
+
+    }
+
+    .offcanvas-header{
+        display: block;
+    }
+
+    .mobile-bar{
+        display: block;
+        width: 100%;
+       
+    }
+
+    .mobile-offcanvas{
+
+        display: block;
+        visibility: hidden;
+        border-radius: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width:80%;
+        height:100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background: white;
+        transform: translateX(-100%);
+        transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+
+    }
+
+    .mobile-icon{
+
+        width: 5%;
+        position: relative;
+
+    }
+
+    .show-nav{
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .mobile-bar, .mobile-icon, .offcanvas-header{
+        display: block;
+    }
+
+    .align-menu{
+
+        display: block;
+
+        margin-bottom: 5rem;
+
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .container{
+
+        align-content: center;
+        padding-right: 0%;
+        padding-left: 0%;
+
+    }
+
+    .row{
+
+        display:flex;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .title-xlg{
+
+        text-align: center;
+
+    }
+
+    .offcanvas-header{
+        display: block;
+    }
+
+    .mobile-bar{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .mobile-offcanvas{
+
+        display: block;
+        visibility: hidden;
+        border-radius: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width:80%;
+        height:100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background: white;
+        transform: translateX(-100%);
+        transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+
+    }
+
+    .mobile-icon{
+
+        width: 5%;
+        position: relative;
+
+    }
+
+    .show-nav{
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .mobile-bar, .mobile-icon, .offcanvas-header{
+        display: block;
+    }
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .container{
+
+        align-content: center;
+        padding-right: 0%;
+        padding-left: 0%;
+
+    }
+
+    .row{
+
+        display:flex;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .title-xlg{
+
+        text-align: center;
+
+    }
+
+    .offcanvas-header{
+        display: block;
+    }
+
+    .mobile-bar{
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+        
+    }
+
+    .mobile-offcanvas{
+
+        display: block;
+        visibility: hidden;
+        border-radius: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width:80%;
+        height:100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background: white;
+        transform: translateX(-100%);
+        transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+        
+
+    }
+
+    .mobile-icon{
+
+        width: 5%;
+        position: relative;
+
+    }
+
+    .show-nav{
+        visibility: visible;
+        transform: translateX(0);
+
+    }
+
+    .mobile-bar, .mobile-icon, .offcanvas-header{
+        display: block;
+    }
+
+    .title-xlg{
+
+        text-align: center;
+
+    }
+
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+    .container{
+
+        align-content: center;
+
+
+    }
+
+    .row{
+
+        display:flex;
+
+        padding-left: 1%;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .title-xlg{
+
+        text-align: center;
+
+    }
+
+    .text-content{
+
+        text-align: justify;
+
+        padding-left: 0%;
+        padding-right: 0%;
+
+    }
+
+    .logo{
+
+        display: contents;
+        width: 25%;
+
+    }
+
+    .img-full{
+
+        width: 25%;
+
+        padding-left: 6%;
+
+    }
+    
+    .header{
+
+        width: fit-content;
+
+    }
+
+
+
+}

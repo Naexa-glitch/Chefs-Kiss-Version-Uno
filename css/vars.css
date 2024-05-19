@@ -1,0 +1,41 @@
+:root{
+
+      /* font & weight of Source sans pro */
+      --ff-primary: 'Source Sans Pro', sans-serif;
+      --fw-reg: 400;
+      --fw-med: 500;
+      --fw-bold: 700;
+      --fw-xbold: 900;
+      /* 16 18 20 24 64 80 */
+      /* font sizes */
+      --fs-xsm: 1rem;
+      --fs-sm: 1.125rem;
+      --fs-rg: 1.25rem;
+      --fs-md: 1.5rem;
+      --fs-mdl: 2.125rem;
+      --fs-mdxl: 3rem;
+      --fs-lg: 4rem;
+      --fs-xlg: 5rem;
+
+      /* font & weight of Source sans pro */
+      --ff-secondary: 'Source Serif Pro', serif;
+      --fw-s-reg: 400;
+      --fw-s-med: 500;
+      --fw-s-bold: 700;
+      --fw-s-xbold: 900;
+
+    /* colors */
+    --clr-black: rgb(0, 0, 0);
+    --clr-white: rgb(255,255,255);
+    --clr-gray: gray; 
+
+    --clr-green: rgb(95, 166, 90);
+    --clr-lightseab: rgb(1, 180, 187);
+    --clr-lightseab-60: #01b5bb46;
+    -clr-seablue: rgb(54, 163, 165);
+    --clr-yellow: rgb(251, 176, 59);
+    --clr-orange: rgb(250, 136, 37);
+    --clr-red: rgb(237, 28, 36);
+
+    
+}
